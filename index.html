@@ -15,10 +15,12 @@
   <link rel="stylesheet" href="static/css/style.css" type="text/css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Vast+Shadow" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <div id="top"></div>
 
 </head>
 
@@ -37,16 +39,16 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active" style="background-image: url('static/images/backgrounds/blue_mountains.png')">
           <div class="title-formatting">
-            <figure class="logo">
+            <!-- <figure class="logo">
               <a href="#">
                 <img src="static/images/logo.png" alt="lg logo" height="100px">
               </a>
-            </figure>
+            </figure> -->
             <h1>Lora Griffin</h1>
             <ul class="iam">
               <li>Full Stack Developer</li>
             </ul>
-            <button type="button" class="btn btn-light btn-lg">Get Started</button>
+            <a class="btn btn-light btn-lg" href="#featured" role="button">Get Started</a>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h3>image info here</h3>
@@ -56,16 +58,16 @@
 
         <div class="carousel-item" style="background-image: url('static/images/backgrounds/road.jpg')">
           <div class="title-formatting">
-            <figure class="logo">
+            <!-- <figure class="logo">
               <a href="#">
                 <img src="static/images/logo.png" alt="lg logo" height="100px">
               </a>
-            </figure>
+            </figure> -->
             <h1>Lora Griffin</h1>
             <ul class="iam">
               <li>Graphic Designer</li>
             </ul>
-            <button type="button" class="btn btn-light btn-lg">Get Started</button>
+            <a class="btn btn-light btn-lg" href="#featured" role="button">Get Started</a>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h3>image info here</h3>
@@ -75,16 +77,16 @@
 
         <div class="carousel-item" style="background-image: url('static/images/backgrounds/12.jpg')">
           <div class="title-formatting">
-            <figure class="logo">
+            <!-- <figure class="logo">
               <a href="#">
                 <img src="static/images/logo.png" alt="lg logo" height="100px">
               </a>
-            </figure>
+            </figure> -->
             <h1>Lora Griffin</h1>
             <ul class="iam">
               <li>Software Engineer</li>
             </ul>
-            <button type="button" class="btn btn-light btn-lg">Get Started</button>
+            <a class="btn btn-light btn-lg" href="#featured" role="button">Get Started</a>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h3>image info here</h3>
@@ -94,16 +96,16 @@
 
         <div class="carousel-item" style="background-image: url('static/images/backgrounds/honeycomb.jpg')">
           <div class="title-formatting">
-            <figure class="logo">
+            <!-- <figure class="logo">
               <a href="#">
                 <img src="static/images/logo.png" alt="lg logo" height="100px">
               </a>
-            </figure>
+            </figure> -->
             <h1>Lora Griffin</h1>
             <ul class="iam">
               <li>Math Nerd</li>
             </ul>
-            <button type="button" class="btn btn-light btn-lg">Get Started</button>
+            <a class="btn btn-light btn-lg" href="#featured" role="button">Get Started</a>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h3>image info here</h3>
@@ -113,16 +115,16 @@
 
         <div class="carousel-item" style="background-image: url('static/images/backgrounds/10.jpg')">
           <div class="title-formatting">
-            <figure class="logo">
+            <!-- <figure class="logo">
               <a href="#">
                 <img src="static/images/logo.png" alt="lg logo" height="100px">
               </a>
-            </figure>
+            </figure> -->
             <h1>Lora Griffin</h1>
             <ul class="iam">
               <li>Bookworm</li>
             </ul>
-            <button type="button" class="btn btn-light btn-lg">Get Started</button>
+            <a class="btn btn-light btn-lg" href="#featured" role="button">Get Started</a>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h3>image info here</h3>
@@ -147,9 +149,8 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <a class="navbar-brand" href="#">
-      <img src="static/images/logo.png" width="30" height="30" class="d-inline-block align-top nav-img" alt="">
-      Lora Griffin
+    <a class="navbar-brand name" href="#top">
+      LG
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -157,22 +158,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Featured</a>
+          <a class="nav-link" href="#featured">Featured</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#featured">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Technology</a>
+          <a class="nav-link disabled" href="#technology">Technology</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">About</a>
+          <a class="nav-link disabled" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
+          <a class="nav-link disabled" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -182,7 +183,7 @@
   <div class="container-fluid">
 
     <!-- Featured Project -->
-    <div class="row featured">
+    <div id="featured" class="row featured">
       <div class="col-5">
         <img src="static/images/safetravels2.png" class="featured-img" alt="Safe Travels Screenshot">
       </div>
@@ -237,126 +238,194 @@
 
   </div> <!-- End of container -->
 
-    <!-- Technologies -->
-    <div class="section skills">
-      <div class="cell have">
-        <div class="skill-title">
-          What I Know
-        </div>
-        <div class="skill-grid">
-          <div class="icon-grid">
-            <div class="label">Python</div>
-            <i class="skill-icon devicon-python-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">HTML5</div>
-            <i class="skill-icon devicon-html5-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">CSS3</div>
-            <i class="skill-icon devicon-css3-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">less</div>
-            <i class="skill-icon devicon-less-plain-wordmark"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">JavaScript</div>
-            <i class="skill-icon devicon-javascript-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">NodeJS</div>
-            <i class="skill-icon devicon-nodejs-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">Express</div>
-            <i class="skill-icon devicon-express-original"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">JQuery</div>
-            <i class="skill-icon devicon-jquery-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">Bootstrap</div>
-            <i class="skill-icon devicon-bootstrap-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">React.js</div>
-            <i class="skill-icon devicon-react-original"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">PostGreSQL</div>
-            <i class="skill-icon devicon-postgresql-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">A.W.S.</div>
-            <i class="skill-icon devicon-amazonwebservices-original"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">Git</div>
-            <i class="skill-icon devicon-git-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">GitHub</div>
-            <i class="skill-icon devicon-github-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">Photoshop</div>
-            <i class="skill-icon devicon-photoshop-line"></i>
-          </div>
-        </div>
+  <!-- Technologies -->
+  <div id="technology" class="section skills">
+    <div class="cell have">
+      <div class="skill-title">
+        What I Know
       </div>
-      <div class="cell want">
-        <div class="skill-title">
-          What I'm learning
+      <div class="skill-grid">
+        <div class="icon-grid">
+          <div class="label">Python</div>
+          <i class="skill-icon devicon-python-plain"></i>
         </div>
-        <div class="skill-grid">
-          <div class="icon-grid">
-            <div class="label">Java</div>
-            <i class="skill-icon devicon-java-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">C</div>
-            <i class="skill-icon devicon-c-plain"></i>
-          </div>
-          <div class="icon-grid">
-            <div class="label">C++</div>
-            <i class="skill-icon devicon-cplusplus-plain"></i>
-          </div>
+        <div class="icon-grid">
+          <div class="label">HTML5</div>
+          <i class="skill-icon devicon-html5-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">CSS3</div>
+          <i class="skill-icon devicon-css3-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">less</div>
+          <i class="skill-icon devicon-less-plain-wordmark"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">JavaScript</div>
+          <i class="skill-icon devicon-javascript-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">NodeJS</div>
+          <i class="skill-icon devicon-nodejs-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">Express</div>
+          <i class="skill-icon devicon-express-original"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">JQuery</div>
+          <i class="skill-icon devicon-jquery-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">Bootstrap</div>
+          <i class="skill-icon devicon-bootstrap-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">React.js</div>
+          <i class="skill-icon devicon-react-original"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">PostGreSQL</div>
+          <i class="skill-icon devicon-postgresql-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">A.W.S.</div>
+          <i class="skill-icon devicon-amazonwebservices-original"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">Git</div>
+          <i class="skill-icon devicon-git-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">GitHub</div>
+          <i class="skill-icon devicon-github-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">Photoshop</div>
+          <i class="skill-icon devicon-photoshop-line"></i>
         </div>
       </div>
     </div>
+    <div class="cell want">
+      <div class="skill-title">
+        What I'm learning
+      </div>
+      <div class="skill-grid">
+        <div class="icon-grid">
+          <div class="label">Java</div>
+          <i class="skill-icon devicon-java-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">C</div>
+          <i class="skill-icon devicon-c-plain"></i>
+        </div>
+        <div class="icon-grid">
+          <div class="label">C++</div>
+          <i class="skill-icon devicon-cplusplus-plain"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="container-fluid">
 
     <!-- About -->
-    <div class="row about">
-      <div class="col">
+    <div id="about" class="row about">
+      <div class="col-7">
         <p>
           bio goes here
         </p>
       </div>
-      <div class="col">
-        image goes here
+      <div class="col-5">
+        <img class="bio-img" src="static/images/headshot.jpg">
       </div>
     </div> <!-- Ends About Row -->
 
     <!-- Contact -->
-    <div class="row">
-      <div class="col">
-        Social Media Links go here
+    <div id="contact" class="row contact">
+      <div class="col-5">
+        <h2>Connect</h2>
+        <div class="row">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/loragriffin/" target="_blank">
+                <i class="contact-icon fa fa-linkedin-square"></i>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/loragriffin" target="_blank">
+                <i class="contact-icon fa fa-github"></i>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="contact-icon fa fa-file-text"></i>
+                Resume
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/lorajean/" target="_blank">
+                <i class="contact-icon fa fa-instagram"></i>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="mailto:lora@loragriffin.com">
+                <i class="contact-icon fa fa-envelope-o"></i>
+                Email
+              </a>
+            </li>
+          </ul>
+
+        </div>
       </div>
-      <div class="col">
-        Contact form goes here.
+      <div class="col-7">
+
+        <form action="/submitted" method="post">
+
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" name="first_name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" name="last_name">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email" name="email">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+
       </div>
     </div> <!-- Ends Contact Row -->
+
+  </div> <!-- End of container -->
 
     <!-- Footer -->
     <footer>
       footer goes here with logo
     </footer>
 
-  </div> <!-- End of container -->
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
