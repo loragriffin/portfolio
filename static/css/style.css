@@ -1,0 +1,126 @@
+/* Colors */
+/*light-gray: #c9cdd9; 201, 205, 217*/
+/*dark-gray: #6a6c74; 106, 108, 116*/
+/*indigo: #4800ff; 72, 0, 255*/
+/*dark-blue: #040153; 4, 1, 83*/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden
+}
+
+.header {
+	text-align:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center;
+	padding: 280px 0;
+}
+.center {
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+.logo {
+	width: 130px;
+	margin: 0 auto 35px;
+}
+.header h1 {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0 0 22px 0 ;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .1);
+}
+
+.title-formatting {
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	padding: 150px 0;
+	color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.iam {
+	padding: 0;
+	margin: 5px 0 55px;
+  text-align: center;
+}
+
+.wp-pic {
+	margin-bottom: 20px;
+}
+
+.iam li {
+	display: inline-block;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	color: white;
+	text-transform: lowercase;
+	font-weight: 400;
+	margin: 0 5px 0 0;
+	padding: 0 0 0 15px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.iam li:first-child {
+	background: none;
+}
+
+.btn-light {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.featured-img {
+  margin: auto;
+  display: block;
+  width: 90%;
+  border-radius: 2%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.featured {
+  height: 500px;
+  background-color: #c9cdd9;
+  padding: 50px 0;
+}
+
+.technology {
+  height: 500px;
+  padding: 50px 0;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.know, .learning {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.know li, .learning li {
+  list-style: none;
+  display: inline-flex;
+}
+
+.know img, .learning img {
+  margin: 10px;
+  height: 75px;
+}
+
+.know h2, .learning h2 {
+  font-family: 'Vast Shadow', cursive;
+}
