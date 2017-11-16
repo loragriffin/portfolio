@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="static/css/style.css" type="text/css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Great+Vibes|Vast+Shadow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Great+Vibes|Vast+Shadow|Economica" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -148,7 +148,7 @@
   </header>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top darkBack">
     <a class="navbar-brand blockletter" href="#top">
       LG
     </a>
@@ -163,9 +163,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#featured">Featured</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#featured">Portfolio</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link disabled" href="#technology">Technology</a>
         </li>
@@ -185,17 +185,19 @@
     <!-- Featured Project -->
     <div id="featured" class="row featured">
       <div class="col-5">
-        <img src="static/images/safetravels2.png" class="featured-img" alt="Safe Travels Screenshot">
+        <a href="https://safetravels.loragriffin.com" target="_blank">
+          <img src="static/images/safetravels.png" class="featured-img" alt="Safe Travels Screenshot">
+        </a>
       </div>
       <div class="col-7">
         <h2 class="titlecase">
         <img src="static/images/safetravels-logo2.png" alt="Safe Travels Logo" height="75px">
         Safe Travels
         </h2>
-        <p>
+        <p class="economica">
           An interactive map overlaying recent data with available transportation options to allow safe travels around Houston.
         </p>
-        <p>
+        <p class="economica">
           This project helped to enforce the importance of project planning and team dynamics with GitHub.
         </p>
         <ul>
@@ -205,8 +207,14 @@
           <li>
             <i class="skill-icon devicon-python-plain"></i>
           </li>
+          <li class="economica">
+            Flask
+          </li>
           <li>
             <i class="skill-icon devicon-javascript-plain"></i>
+          </li>
+          <li>
+            <i class="skill-icon devicon-jquery-plain"></i>
           </li>
           <li>
             <i class="skill-icon devicon-html5-plain-wordmark"></i>
@@ -215,7 +223,7 @@
             <i class="skill-icon devicon-css3-plain-wordmark"></i>
           </li>
           <li>
-            Flask
+            <i class="skill-icon devicon-postgresql-plain"></i>
           </li>
         </ul>
         <ul>
@@ -335,10 +343,35 @@
 
     <!-- About -->
     <div id="about" class="row about">
-      <div class="col-7">
-        <p>
-          bio goes here
+      <div class="col-7 bio">
+        <p class="economica">
+          I am a Graphic Designer turned Software Engineer. Background in project management, technology training, and the automotive/motorcycle industry. Professional interests in beautiful design, algorithms, data security, and social impact.
         </p>
+        <p class="script">
+          The nitty gritty:
+        </p>
+        <ul>
+          <li class="economica">
+            student in a 16-week, full-time coding bootcamp
+          </li>
+          <li class="economica">
+            self study in computer science with Harvard's CS50
+          </li>
+        </ul>
+        <p class="script">
+          Me in a nutshell:
+        </p>
+        <ul>
+          <li class="economica">
+            math fanatic
+          </li>
+          <li class="economica">
+            baker at heart
+          </li>
+          <li class="economica">
+            bookworm
+          </li>
+        </ul>
       </div>
       <div class="col-5">
         <img class="bio-img" src="static/images/headshot.jpg">
@@ -346,80 +379,43 @@
     </div> <!-- Ends About Row -->
 
     <!-- Contact -->
-    <div id="contact" class="row contact">
-      <div class="col-5">
+    <div id="contact" class="row">
+      <div class="col">
         <h2 class="titlecase">Connect</h2>
-        <div class="row">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/loragriffin/" target="_blank">
-                <i class="contact-icon fa fa-linkedin-square"></i>
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/loragriffin" target="_blank">
-                <i class="contact-icon fa fa-github"></i>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank">
-                <i class="contact-icon fa fa-file-text"></i>
-                Resume
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/lorajean/" target="_blank">
-                <i class="contact-icon fa fa-instagram"></i>
-                Instagram
-              </a>
-            </li>
-            <li>
-              <a href="mailto:lora@loragriffin.com">
-                <i class="contact-icon fa fa-envelope-o"></i>
-                Email
-              </a>
-            </li>
-          </ul>
-
-        </div>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/loragriffin/" target="_blank">
+              <i class="contact-icon fa fa-linkedin-square"></i>
+              <span class="economica">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/loragriffin" target="_blank">
+              <i class="contact-icon fa fa-github"></i>
+              <span class="economica">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="contact-icon fa fa-file-text"></i>
+              <span class="economica">Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lorajean/" target="_blank">
+              <i class="contact-icon fa fa-instagram"></i>
+              <span class="economica">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:lora@loragriffin.com">
+              <i class="contact-icon fa fa-envelope-o"></i>
+              <span class="economica">Email</span>
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="col-7">
 
-        <form action="/submitted" method="post">
-
-          <div class="form-row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name" name="first_name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" name="last_name">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Email" name="email">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="col">
-              <textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
-            </div>
-          </div>
-
-          <button type="submit" class="btn btn-dark">Submit</button>
-        </form>
-
-      </div>
     </div> <!-- Ends Contact Row -->
 
   </div> <!-- End of container -->

@@ -7,7 +7,6 @@
 /* -- Global -- */
 body {
   height: 100%;
-  /*font-family: 'Lato', 'Arial', sans-serif;*/
   padding: 0;
   margin: 0;
 }
@@ -62,6 +61,11 @@ a, a:hover {
   font-size: 1.7em;
 }
 
+.economica {
+  font-family: 'Economica', sans-serif;
+  font-size: 1.4em;
+}
+
 /* -- Carousel -- */
 
 .carousel-item {
@@ -94,7 +98,6 @@ a, a:hover {
 	text-align: center;
 	padding: 150px 0;
 	color: white;
-  /*text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);*/
 }
 
 h1 {
@@ -123,6 +126,22 @@ h1 {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
+.iam li:first-child {
+	background: none;
+}
+
+.btn-light {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+/*-- NavBar --*/
+
+.darkBack {
+  background-color: #040153;
+}
+
+/*-- Featured --*/
+
 .featured li {
   display: inline-block;
 }
@@ -134,23 +153,15 @@ h1 {
   padding: 5px;
 }
 
-.featured a, .contact a {
+.featured a, #contact a {
   text-decoration: none;
   color: inherit;
-}
-
-.iam li:first-child {
-	background: none;
-}
-
-.btn-light {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
 .featured-img {
   margin: auto;
   display: block;
-  width: 90%;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
@@ -234,35 +245,42 @@ h1 {
 }
 
  /*-- About -- */
+
  .about {
    height: 500px;
    background-color: #c9cdd9;
  }
 
 .about col {
-  height: 50%;
   position: relative;
 }
 
-.about p {
-  /*border: solid 1px blue;*/
-  display: inline-flex;
-  margin: 100px auto;
-  width: 70%;
+.bio {
+  padding: 50px 50px 50px 100px;
 }
 
 .bio-img {
-  /*border: solid 1px blue;*/
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin: 100px auto;
+  height: 350px;
+  margin: 75px 100px;
+  float: right;
 }
 
- /*-- Contact --*/
-.contact {
+.about ul {
+  padding-top: 0;
+  padding-left: 50px;
+}
+
+.about .script {
+  margin-bottom: 0;
+}
+
+/*-- Contact --*/
+
+#contact {
   height: 500px;
-  padding: 50px 100px;
+  margin: 0 auto;
+  padding: 50px;
 }
 
 .contact-icon {
@@ -271,20 +289,23 @@ h1 {
   margin: 0 10px;
 }
 
-.contact li {
-  font-size: 1.5em;
-  display: block;
-  padding: 10px 0;
+#contact ul {
+  margin: 0 auto;
+  width: 200px;
 }
 
-.contact h2 {
+#contact li {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-size: 1.5em;
+}
+
+#contact h2 {
   height: 15%;
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
   color: #040153;
   text-align: center;
+  margin: 0 auto;
 }
 
 .form-row {
