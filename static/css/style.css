@@ -116,14 +116,14 @@ h1 {
 
 .iam li {
 	display: inline-block;
-	font-family: 'Montserrat',sans-serif;
-  font-size: 1.5em;
+  font-family: 'Economica', sans-serif;
+  font-size: 2em;
 	color: white;
 	text-transform: lowercase;
 	font-weight: 400;
 	margin-right: 5px;
 	padding-left: 15px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
 }
 
 .iam li:first-child {
@@ -137,7 +137,7 @@ h1 {
 /*-- NavBar --*/
 
 .darkBack {
-  background-color: #040153;
+  background-color: rgba(4, 1, 83, .9);
 }
 
 /*-- Featured --*/
