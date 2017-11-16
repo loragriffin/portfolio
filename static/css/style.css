@@ -172,6 +172,16 @@ h1 {
   padding: 50px 0;
 }
 
+/*-- GitHub --*/
+#github {
+  height: 225px;
+}
+
+#github img {
+  margin: 50px auto;
+  height: 125px;
+}
+
 /* -- Technology -- */
 
 .skills, footer {

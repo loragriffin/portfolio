@@ -1,1 +1,1 @@
-zenscroll.setup(500, 65);
+zenscroll.setup(1000, 65);
