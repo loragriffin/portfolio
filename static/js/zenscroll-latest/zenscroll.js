@@ -35,8 +35,6 @@
 
 /*global define, module */
 
-var duration = 500; // milliseconds
-var offset = 200; // pixels
 
 (function (root, factory) {
 	if (typeof define === "function" && define.amd) {
@@ -181,6 +179,9 @@ var offset = 200; // pixels
 		 * @param {offset} Optionally the offset of the top of the element from the center of the screen.
 		 * @param {onDone} An optional callback function to be invoked once the scroll finished.
 		 */
+
+		var offset = 100
+
 		var scrollToCenterOf = function (elem, duration, offset, onDone) {
 			scrollToY(Math.max(0, container.getTopOf(elem) - container.getHeight()/2 + (offset || elem.getBoundingClientRect().height/2)), duration, onDone)
 		}
@@ -274,7 +275,7 @@ var offset = 200; // pixels
 				setTimeout(function () { history.scrollRestoration = "manual" }, 9)
 				window.addEventListener("popstate", function (event) {
 					if (event.state && "zenscrollY" in event.state) {
-						zenscroll.center(event.state.zenscrollY)
+						zenscroll.toY(event.state.zenscrollY)
 					}
 				}, false)
 			}
