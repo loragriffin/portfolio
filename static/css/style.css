@@ -88,13 +88,6 @@ a, a:hover {
 	padding: 280px 0;
 }
 
-.center {
-	margin-left: 0;
-	margin-right: 0;
-	padding-right: 0;
-	padding-left: 0;
-}
-
 .title-formatting {
 	text-align: center;
 	padding: 150px 0;
@@ -174,6 +167,16 @@ h1 {
   padding: 50px 0;
 }
 
+.featured ul {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .featured {
+    height: 900px;
+  }
+}
+
 /*-- GitHub --*/
 #github {
   height: 275px;
@@ -190,6 +193,11 @@ h1 {
 #github h2 {
   margin: 20px auto;
   height: 50px;
+}
+@media screen and (max-width: 768px) {
+  #github {
+    display: none;
+  }
 }
 
 /* -- Technology -- */
@@ -258,9 +266,14 @@ h1 {
   text-shadow: 2px 2px 8px black;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .skills {
-    height: 500px;
+    height: 1000px;
+  }
+  .titlecase {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }
 
@@ -271,19 +284,15 @@ h1 {
    background-color: #c9cdd9;
  }
 
-.about col {
-  position: relative;
-}
-
 .bio {
   padding: 40px 50px 40px 100px;
 }
 
 .bio-img {
+  display: block;
   border-radius: 50%;
-  height: 400px;
-  margin: 125px 100px;
-  float: right;
+  width: 400px;
+  margin: 125px auto;
 }
 
 .about ul {
@@ -293,6 +302,20 @@ h1 {
 
 .about .script {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    height: 1000px;
+  }
+  .bio-img {
+    width: 200px;
+    margin: 10px auto;
+  }
+  .bio {
+    padding: 25px;
+    padding-bottom: 0;
+  }
 }
 
 /*-- Contact --*/
