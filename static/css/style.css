@@ -267,7 +267,7 @@ h1 {
  /*-- About -- */
 
  .about {
-   height: 560px;
+   height: 650px;
    background-color: #c9cdd9;
  }
 
@@ -276,13 +276,13 @@ h1 {
 }
 
 .bio {
-  padding: 50px 50px 50px 100px;
+  padding: 40px 50px 40px 100px;
 }
 
 .bio-img {
   border-radius: 50%;
-  height: 350px;
-  margin: 75px 100px;
+  height: 400px;
+  margin: 125px 100px;
   float: right;
 }
 
