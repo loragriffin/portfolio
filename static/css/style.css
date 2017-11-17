@@ -154,15 +154,15 @@ h1 {
 }
 
 .featured-img {
-  margin: auto;
+  margin: 30px auto;
   display: block;
-  width: 80%;
+  height: 80%;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
 .featured {
-  height: 500px;
+  height: 450px;
   background-color: #c9cdd9;
   padding: 50px 0;
 }
