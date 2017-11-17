@@ -171,6 +171,13 @@ h1 {
   padding-left: 0;
 }
 
+@media screen and (max-width: 570px) {
+  .featured .titlecase {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .featured {
     height: 900px;
@@ -209,14 +216,7 @@ h1 {
   background-size: cover;
 }
 
-.have {
-  height: 650px;
-  z-index: 1;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-}
-
-.want {
+.have, .want {
   height: 650px;
   z-index: 1;
   flex-direction: column;
@@ -265,6 +265,18 @@ h1 {
   font-size: 3.5em;
   text-shadow: 2px 2px 8px black;
 }
+/*@media screen and (max-width: 568px) {
+  .skill-icon {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+  .skills {
+    height: 1200px;
+  }
+  .want, .have {
+    height: 600px;
+  }
+}*/
 
 @media screen and (max-width: 768px) {
   .skills {
@@ -274,6 +286,16 @@ h1 {
     font-size: 1.7em;
     padding-bottom: 20px;
     padding-top: 20px;
+  }
+  .skill-title {
+    height: 20%;
+  }
+  .want, .have {
+    height: 500px;
+  }
+  .skill-icon {
+    font-size: 3em;
+    padding-bottom: 20px;
   }
 }
 
@@ -334,14 +356,14 @@ h1 {
 
 #contact ul {
   margin: 0 auto;
-  width: 200px;
+  padding: 0;
 }
 
 #contact li {
   display: block;
-  margin: 0 auto;
   padding: 5px 0;
   font-size: 1.5em;
+  text-align: center;
 }
 
 #contact h2 {
