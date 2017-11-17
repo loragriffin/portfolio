@@ -177,8 +177,11 @@ h1 {
   height: 225px;
 }
 
-#github img {
+#github a {
   margin: 50px auto;
+}
+
+#github a img {
   height: 125px;
 }
 
