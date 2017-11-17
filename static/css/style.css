@@ -172,6 +172,10 @@ h1 {
   padding-left: 0;
 }
 
+.featured a:hover {
+  color: #4800ff;
+}
+
 @media screen and (max-width: 570px) {
   .featured .titlecase {
     font-size: 1.5em;
