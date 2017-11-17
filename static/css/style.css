@@ -216,21 +216,27 @@ h1 {
   background-size: cover;
 }
 
+.skills {
+  height: 500px;
+}
+
 .have, .want {
-  height: 650px;
+  height: 500px;
   z-index: 1;
   flex-direction: column;
   -webkit-flex-direction: column;
 }
 
 .skill-title {
-  height: 10%;
+  height: 20%;
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
   color: white;
   font-size: 2.5em;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .skill-grid {
@@ -241,10 +247,10 @@ h1 {
   justify-content: center;
   -webkit-justify-content: center;
   flex-wrap: wrap;
-  height: 50%;
+  height: 80%;
   width: 80%;
   color: white;
-  padding: 0 20px 0px 20px;
+  padding: 0 20px 50px 20px;
 }
 
 .icon-grid {
@@ -280,18 +286,15 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .skills {
-    height: 1000px;
+    height: 1200px;
   }
   .titlecase {
     font-size: 1.7em;
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  .skill-title {
-    height: 20%;
-  }
   .want, .have {
-    height: 500px;
+    height: 600px;
   }
   .skill-icon {
     font-size: 3em;
