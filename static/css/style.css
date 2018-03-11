@@ -189,6 +189,23 @@ h1 {
   }
 }
 
+/*-- Portfolio --*/
+.portfolio {
+  height: 350px;
+  background-color: #dcdee5;
+  padding: 50px 0;
+}
+
+#portfolio .featured-img {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
 /*-- GitHub --*/
 #github {
   height: 275px;
