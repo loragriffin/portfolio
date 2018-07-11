@@ -163,7 +163,7 @@ h1 {
 }
 
 .featured {
-  height: 500px;
+  height: 490px;
   background-color: #c9cdd9;
   padding: 50px 0;
 }
@@ -204,6 +204,22 @@ h1 {
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+#almobile, #austin {
+  background-color: #c9cdd9;
+}
+
+#tbbi .featured-img, #austin .featured-img, #almobile .featured-img {
+  width: 65%;
+}
+
+#almobile .featured-img {
+  width: 60%;
+}
+
+#almobile, #tbbi, #austin {
+  height: 400px;
 }
 
 /*-- GitHub --*/
