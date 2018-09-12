@@ -179,13 +179,14 @@ h1 {
 
 /*-- Portfolio --*/
 .portfolio {
-  height: 350px;
+  height: 400px;
   background-color: #dcdee5;
   padding: 50px 0;
 }
 
 #portfolio .featured-img {
   background-color: white;
+  max-width: 300px;
 }
 
 #almobile, #austin {
@@ -193,15 +194,11 @@ h1 {
 }
 
 #tbbi .featured-img, #austin .featured-img, #almobile .featured-img {
-  width: 80%;
-}
-
-#almobile .featured-img {
-  width: 80%;
+  width: 60%;
 }
 
 #almobile, #tbbi, #austin {
-  height: 400px;
+  height: 450px;
 }
 
 
@@ -422,6 +419,9 @@ footer li {
   }
   .titlecase {
     font-size: 2rem;
+  }
+  #tbbi .featured-img, #austin .featured-img, #almobile .featured-img {
+    width: 80%;
   }
 
 }
