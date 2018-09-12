@@ -177,10 +177,6 @@ h1 {
 }
 
 @media screen and (max-width: 570px) {
-  .featured {
-    height: 900px;
-  }
-
   .featured .titlecase {
     font-size: 1.5em;
     padding-bottom: 10px;
@@ -189,7 +185,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .featured {
-    height: 560px;
+    height: 900px;
   }
 }
 
@@ -198,6 +194,7 @@ h1 {
   height: 350px;
   background-color: #dcdee5;
   padding: 50px 0;
+}
 
 #portfolio .featured-img {
   margin: auto;
@@ -218,33 +215,11 @@ h1 {
 }
 
 #almobile .featured-img {
-  width: 80%;
+  width: 55%;
 }
 
 #almobile, #tbbi, #austin {
   height: 400px;
-}
-
-@media screen and (max-width: 570px) {
-  .portfolio {
-    height: 410px;
-  }
-
-  #almobile, #tbbi, #austin {
-    height: 700px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .portfolio {
-    height: 660px;
-  }
-
-  .titlecase {
-    font-size: 1.7em;
-    padding-bottom: 20px;
-  }
-
 }
 
 /*-- GitHub --*/
@@ -334,8 +309,7 @@ h1 {
   font-size: 3.5em;
   text-shadow: 2px 2px 8px black;
 }
-
-/* @media screen and (max-width: 568px) {
+/*@media screen and (max-width: 568px) {
   .skill-icon {
     font-size: 2em;
     padding-bottom: 20px;
@@ -346,11 +320,16 @@ h1 {
   .want, .have {
     height: 600px;
   }
-} */
+}*/
 
 @media screen and (max-width: 768px) {
   .skills {
     height: 1200px;
+  }
+  .titlecase {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .want, .have {
     height: 600px;
