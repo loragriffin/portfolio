@@ -233,18 +233,18 @@ h1 {
   #almobile, #tbbi, #austin {
     height: 700px;
   }
-
-  .titlecase {
-    font-size: 1.7em;
-    padding-bottom: 20px;
-  }
-
 }
 
 @media screen and (max-width: 768px) {
   .portfolio {
     height: 660px;
   }
+
+  .titlecase {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+  }
+
 }
 
 /*-- GitHub --*/
