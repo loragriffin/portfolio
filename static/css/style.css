@@ -371,12 +371,8 @@ footer li {
 
 /*-- Mobile --*/
 @media screen and (max-width: 570px) {
-  .featured .titlecase {
-    font-size: 1.5em;
-    padding-bottom: 10px;
-    padding-top: 30px;
-  }
 }
+
 
 /* Smartphones */
 @media screen and (max-width: 736px) {
@@ -409,7 +405,7 @@ footer li {
     height: 1200px;
   }
   .bio-img {
-    width: 360px;
+    width: 260px;
     margin: 0px auto;
   }
   .bio {
@@ -419,6 +415,15 @@ footer li {
   #contact {
     height: 450px;
   }
+  .featured .titlecase {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .titlecase {
+    font-size: 2rem;
+  }
+
 }
 
 /* iPads/Tablets */
@@ -439,7 +444,7 @@ footer li {
     height: 700px;
   }
   .titlecase {
-    font-size: 1.7em;
+    font-size: 2em;
     padding-bottom: 20px;
     padding-top: 0px;
   }
@@ -461,6 +466,10 @@ footer li {
   .bio {
     padding: 25px;
     padding-bottom: 0;
+  }
+
+  #github a img {
+    height: 100px;
   }
 
   #contact {
