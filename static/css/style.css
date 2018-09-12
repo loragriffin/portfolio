@@ -176,18 +176,6 @@ h1 {
   color: #4800ff;
 }
 
-@media screen and (max-width: 570px) {
-  .featured .titlecase {
-    font-size: 1.5em;
-    padding-bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .featured {
-    height: 900px;
-  }
-}
 
 /*-- Portfolio --*/
 .portfolio {
@@ -197,13 +185,7 @@ h1 {
 }
 
 #portfolio .featured-img {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 250px;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
 }
 
 #almobile, #austin {
@@ -211,16 +193,17 @@ h1 {
 }
 
 #tbbi .featured-img, #austin .featured-img, #almobile .featured-img {
-  width: 65%;
+  width: 80%;
 }
 
 #almobile .featured-img {
-  width: 55%;
+  width: 80%;
 }
 
 #almobile, #tbbi, #austin {
   height: 400px;
 }
+
 
 /*-- GitHub --*/
 #github {
@@ -239,11 +222,7 @@ h1 {
   margin: 20px auto;
   height: 50px;
 }
-@media screen and (max-width: 768px) {
-  #github {
-    display: none;
-  }
-}
+
 
 /* -- Technology -- */
 
@@ -266,7 +245,7 @@ h1 {
 }
 
 .skill-title {
-  height: 20%;
+  /* height: 20%; */
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -309,36 +288,7 @@ h1 {
   font-size: 3.5em;
   text-shadow: 2px 2px 8px black;
 }
-/*@media screen and (max-width: 568px) {
-  .skill-icon {
-    font-size: 2em;
-    padding-bottom: 20px;
-  }
-  .skills {
-    height: 1200px;
-  }
-  .want, .have {
-    height: 600px;
-  }
-}*/
 
-@media screen and (max-width: 768px) {
-  .skills {
-    height: 1200px;
-  }
-  .titlecase {
-    font-size: 1.7em;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-  .want, .have {
-    height: 600px;
-  }
-  .skill-icon {
-    font-size: 3em;
-    padding-bottom: 20px;
-  }
-}
 
  /*-- About -- */
 
@@ -367,19 +317,6 @@ h1 {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .about {
-    height: 1000px;
-  }
-  .bio-img {
-    width: 200px;
-    margin: 10px auto;
-  }
-  .bio {
-    padding: 25px;
-    padding-bottom: 0;
-  }
-}
 
 /*-- Contact --*/
 
@@ -418,6 +355,7 @@ h1 {
   padding: 5px 0;
 }
 
+
 /*-- Footer -- */
 footer {
   height: 100px;
@@ -428,4 +366,104 @@ footer {
 footer li {
   display: inline-block;
   padding: 0 10px;
+}
+
+
+/*-- Mobile --*/
+@media screen and (max-width: 570px) {
+  .featured .titlecase {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 736px) {
+  .skill-icon {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+  .skills {
+    height: 1200px;
+  }
+  .want, .have {
+    height: 600px;
+  }
+  #featured {
+    height: 860px;
+  }
+  #portfolio, #austin {
+    height: 730px;
+  }
+  #almobile {
+    height: 785px;
+  }
+  #tbbi {
+    height: 685px;
+  }
+  #github {
+    display: none;
+  }
+  #about {
+    height: 1200px;
+  }
+  .bio-img {
+    width: 360px;
+    margin: 0px auto;
+  }
+  .bio {
+    padding: 40px;
+    padding-bottom: 0px;
+  }
+  #contact {
+    height: 450px;
+  }
+}
+
+/* iPads/Tablets */
+@media screen and (min-width: 736px) and (max-width: 768px) {
+  .featured {
+    height: 560px;
+  }
+
+  #portfolio {
+    height: 410px;
+  }
+
+  #almobile, #tbbi, #austin {
+    height: 450px;
+  }
+
+  .skills {
+    height: 700px;
+  }
+  .titlecase {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  .want, .have {
+    height: 700px;
+  }
+  .skill-icon {
+    font-size: 3em;
+    padding-bottom: 20px;
+  }
+
+  .about {
+    height: 720px;
+  }
+  .bio-img {
+    width: 275px;
+    margin: 50px auto;
+  }
+  .bio {
+    padding: 25px;
+    padding-bottom: 0;
+  }
+
+  #contact {
+    height: 450px;
+  }
 }
