@@ -177,6 +177,10 @@ h1 {
 }
 
 @media screen and (max-width: 570px) {
+  .featured {
+    height: 560px;
+  }
+
   .featured .titlecase {
     font-size: 1.5em;
     padding-bottom: 10px;
@@ -194,7 +198,6 @@ h1 {
   height: 350px;
   background-color: #dcdee5;
   padding: 50px 0;
-}
 
 #portfolio .featured-img {
   margin: auto;
@@ -215,11 +218,27 @@ h1 {
 }
 
 #almobile .featured-img {
-  width: 60%;
+  width: 80%;
 }
 
 #almobile, #tbbi, #austin {
   height: 400px;
+}
+
+@media screen and (max-width: 570px) {
+  .portfolio {
+    height: 410px;
+  }
+
+  #almobile, #tbbi, #austin {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    height: 660px;
+  }
 }
 
 /*-- GitHub --*/
@@ -309,6 +328,7 @@ h1 {
   font-size: 3.5em;
   text-shadow: 2px 2px 8px black;
 }
+
 /*@media screen and (max-width: 568px) {
   .skill-icon {
     font-size: 2em;
@@ -329,7 +349,6 @@ h1 {
   .titlecase {
     font-size: 1.7em;
     padding-bottom: 20px;
-    padding-top: 20px;
   }
   .want, .have {
     height: 600px;
