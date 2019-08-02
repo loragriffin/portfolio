@@ -290,7 +290,6 @@ h1 {
  /*-- About -- */
 
  .about {
-   height: 670px;
    background-color: #c9cdd9;
  }
 
@@ -301,8 +300,8 @@ h1 {
 .bio-img {
   display: block;
   border-radius: 50%;
-  width: 400px;
-  margin: 125px auto;
+  width: 350px;
+  margin: 40px auto;
 }
 
 .about ul {
